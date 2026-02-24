@@ -28,9 +28,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=enzopetit&show_icons=true&theme=github_dark&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=enzopetit&show_icons=true&theme=default&hide_border=true" />
-    <img src="https://github-readme-stats.vercel.app/api?username=enzopetit&show_icons=true&theme=default&hide_border=true" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=enzopetit&show_icons=true&include_all_commits=true&theme=github_dark&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=enzopetit&show_icons=true&include_all_commits=true&theme=default&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api?username=enzopetit&show_icons=true&include_all_commits=true&theme=default&hide_border=true" />
   </picture>
 </p>
 
