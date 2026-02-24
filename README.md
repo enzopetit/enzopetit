@@ -1,4 +1,8 @@
 <p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Software+Engineer;AI+Specialist;Low-Level+Enthusiast" alt="Typing SVG" /></a>
+</p>
+
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=enzopetit&style=for-the-badge&color=blue" />
 </p>
 
@@ -20,26 +24,6 @@
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white" />
   <img src="https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
-</p>
-
-<br>
-
-<h2 align="center">📊 GitHub Stats</h2>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=enzopetit&show_icons=true&include_all_commits=true&theme=github_dark&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=enzopetit&show_icons=true&include_all_commits=true&theme=default&hide_border=true" />
-    <img src="https://github-readme-stats.vercel.app/api?username=enzopetit&show_icons=true&include_all_commits=true&theme=default&hide_border=true" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=enzopetit&theme=github-dark-blue&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com?user=enzopetit&theme=default&hide_border=true" />
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=enzopetit&theme=default&hide_border=true" />
-  </picture>
 </p>
 
 <br>
