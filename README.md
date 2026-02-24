@@ -26,14 +26,3 @@
   <img src="https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
 </p>
 
-<br>
-
-<h2 align="center">🐍 Contributions</h2>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/enzopetit/enzopetit/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/enzopetit/enzopetit/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/enzopetit/enzopetit/output/github-snake.svg" />
-  </picture>
-</p>
