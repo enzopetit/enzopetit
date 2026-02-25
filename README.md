@@ -1,16 +1,16 @@
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │ enzo@steezy:~$                                                   │
-│                                                                   │
-│  ███████╗████████╗███████╗███████╗███████╗██╗   ██╗              │
-│  ██╔════╝╚══██╔══╝██╔════╝██╔════╝╚══███╔╝╚██╗ ██╔╝              │
-│  ███████╗   ██║   █████╗  █████╗    ███╔╝  ╚████╔╝               │
-│  ╚════██║   ██║   ██╔══╝  ██╔══╝   ███╔╝   ╚██╔╝                │
-│  ███████║   ██║   ███████╗███████╗███████╗   ██║                 │
-│  ╚══════╝   ╚═╝   ╚══════╝╚══════╝╚══════╝   ╚═╝                 │
-│                                                                   │
-│  > Software Engineer | AI Specialist | Low-Level Enthusiast       │
-│                                                                   │
+│                                                                  │
+│  ███████╗████████╗███████╗███████╗███████╗.╗██     ██╗              │
+│  ██╔════╝╚══██╔══╝██╔════╝██╔════╝╚══███╔╝.╚█╗     ╔█╝              │
+│  ███████╗   ██║   █████╗  █████╗    ███╔╝    ╚█████╝               │
+│  ╚════██║   ██║   ██╔══╝  ██╔══╝   ███╔╝      ╚███╝                 │
+│  ███████║   ██║   ███████╗███████╗███████╗     ║█║                 │
+│  ╚══════╝   ╚═╝   ╚══════╝╚══════╝╚══════╝     ╚═╝                 │
+│                                                                  │
+│  > Software Engineer | AI Specialist
+│                                                                  │
 └──────────────────────────────────────────────────────────────────┘
 ```
 
@@ -41,4 +41,17 @@
   <img src="https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/SwiftUI-FA7343?style=for-the-badge&logo=swift&logoColor=white" />
+</p>
+
+<h2 align="center">🔧 Tools</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
 </p>
