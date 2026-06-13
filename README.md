@@ -70,18 +70,9 @@ class EnzoPetit:
 
 <br/>
 
-## 📊 GitHub Stats
+## 🏆 Trophies
 
 <div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=enzopetit&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=enzopetit&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=enzopetit&hide_border=true&theme=tokyonight" />
-
-<br/>
 
 <img src="https://github-profile-trophy.vercel.app/?username=enzopetit&theme=tokyonight&no-frame=true&column=7&margin-w=10" />
 
