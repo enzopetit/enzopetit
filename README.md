@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00599C,100:3178C6&height=200&section=header&text=Enzo%20Petit&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%20Specialist&descAlignY=58&descSize=18" width="100%" />
-
-<a href="https://github.com/enzopetit">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=3178C6&center=true&vCenter=true&width=600&lines=enzo%40steezy%3A~%24+whoami;Software+Engineer;AI+Specialist;Always+building+something." alt="Typing SVG" />
-</a>
+<img src="./assets/steezy.svg" width="100%" alt="STEEZY — boot sequence" />
 
 <br/>
 
