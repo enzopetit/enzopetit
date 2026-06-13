@@ -1,80 +1,90 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" fill="none" font-family="'JetBrains Mono','Courier New',monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" fill="none" font-family="'JetBrains Mono','SFMono-Regular','Courier New',monospace">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0d1117"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#0b0f17"/>
       <stop offset="1" stop-color="#05070d"/>
     </linearGradient>
-    <linearGradient id="rainFade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-      <stop offset="0.25" stop-color="#fff" stop-opacity="1"/>
-      <stop offset="0.75" stop-color="#fff" stop-opacity="1"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#3fb950"/>
     </linearGradient>
-    <mask id="rainMask">
-      <rect x="0" y="0" width="1000" height="320" fill="url(#rainFade)"/>
-    </mask>
-    <clipPath id="frame">
-      <rect x="2" y="2" width="996" height="316" rx="14"/>
-    </clipPath>
-    <clipPath id="type">
-      <rect x="118" y="252" width="0" height="26">
-        <animate attributeName="width" values="0;0;360" keyTimes="0;0.18;0.5" dur="6s" begin="0s" repeatCount="indefinite"/>
-      </rect>
-    </clipPath>
+    <radialGradient id="vig" cx="0.5" cy="0.4" r="0.75">
+      <stop offset="0.6" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <clipPath id="win"><rect x="20" y="18" width="860" height="334" rx="13"/></clipPath>
+    <clipPath id="c1"><rect x="40" y="80" width="0" height="22"><animate attributeName="width" values="0;0;230;230" keyTimes="0;.031;.092;1" dur="13s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="40" y="110" width="0" height="22"><animate attributeName="width" values="0;0;330;330" keyTimes="0;.108;.162;1" dur="13s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="40" y="148" width="0" height="22"><animate attributeName="width" values="0;0;300;300" keyTimes="0;.177;.246;1" dur="13s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="40" y="178" width="0" height="22"><animate attributeName="width" values="0;0;460;460" keyTimes="0;.262;.331;1" dur="13s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c5"><rect x="40" y="216" width="0" height="22"><animate attributeName="width" values="0;0;360;360" keyTimes="0;.346;.423;1" dur="13s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="cbar"><rect x="44" y="252" width="0" height="16"><animate attributeName="width" values="0;0;232;232" keyTimes="0;.438;.577;1" dur="13s" repeatCount="indefinite"/></rect></clipPath>
     <style>
       @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
-      @keyframes fall { from{transform:translateY(-280px)} to{transform:translateY(320px)} }
-      @keyframes flick { 0%,96%,100%{opacity:.45} 97%{opacity:.15} 98%{opacity:.6} }
-      @keyframes scan { from{transform:translateY(-20px)} to{transform:translateY(340px)} }
-      @keyframes nameIn { 0%,46%{opacity:0;transform:translateY(8px)} 54%,100%{opacity:1;transform:translateY(0)} }
-      @keyframes gC { 0%,88%,100%{transform:translate(0,0)} 90%{transform:translate(-4px,2px)} 92%{transform:translate(3px,-2px)} 94%{transform:translate(-2px,1px)} }
-      @keyframes gM { 0%,88%,100%{transform:translate(0,0)} 90%{transform:translate(4px,-2px)} 92%{transform:translate(-3px,2px)} 94%{transform:translate(2px,-1px)} }
-      @keyframes tagIn { 0%,58%{opacity:0} 70%,100%{opacity:.85} }
-      .rain { fill:#00ff9c; font-size:18px; writing-mode:tb; letter-spacing:2px; animation:fall linear infinite; }
+      @keyframes scan  { from{transform:translateY(-10px)} to{transform:translateY(360px)} }
+      @keyframes gC { 0%,90%,100%{transform:translate(0,0)} 91%{transform:translate(-3px,2px)} 93%{transform:translate(4px,-2px)} 95%{transform:translate(-2px,1px)} }
+      @keyframes gM { 0%,90%,100%{transform:translate(0,0)} 91%{transform:translate(3px,-2px)} 93%{transform:translate(-4px,2px)} 95%{transform:translate(2px,-1px)} }
       .cur  { animation:blink 1s steps(1) infinite; }
-      .name { font-size:96px; font-weight:800; }
-      .scanline { animation:scan 5s linear infinite; }
-      .crt { animation:flick 4s ease-in-out infinite; }
-      .nm0 { animation:nameIn 6s ease-out infinite; }
-      .nmC { animation:gC 5s steps(1) infinite; }
-      .nmM { animation:gM 5s steps(1) infinite; }
-      .tag { animation:tagIn 6s ease-out infinite; }
+      .scanline { animation:scan 6s linear infinite; }
+      .nmC { animation:gC 4s steps(1) infinite; }
+      .nmM { animation:gM 4s steps(1) infinite; }
+      .ln  { font-size:16px; }
+      .prompt { fill:#3fb950; font-weight:600; }
     </style>
   </defs>
 
-  <g clip-path="url(#frame)">
-    <rect x="0" y="0" width="1000" height="320" fill="url(#bg)"/>
+  <rect x="0" y="0" width="900" height="500" fill="#05070d"/>
 
-    <g mask="url(#rainMask)" opacity="0.5">
-      <text class="rain" x="40"  y="0" style="animation-duration:4.2s;animation-delay:-1.0s">01001011001</text>
-      <text class="rain" x="110" y="0" style="animation-duration:6.1s;animation-delay:-3.2s">10110100110</text>
-      <text class="rain" x="180" y="0" style="animation-duration:3.6s;animation-delay:-0.4s">11010011010</text>
-      <text class="rain" x="250" y="0" style="animation-duration:5.4s;animation-delay:-2.1s">00101101001</text>
-      <text class="rain" x="320" y="0" style="animation-duration:4.8s;animation-delay:-4.0s">10011010110</text>
-      <text class="rain" x="690" y="0" style="animation-duration:4.0s;animation-delay:-1.7s">01101001011</text>
-      <text class="rain" x="760" y="0" style="animation-duration:6.4s;animation-delay:-0.9s">11001011010</text>
-      <text class="rain" x="830" y="0" style="animation-duration:3.9s;animation-delay:-2.8s">00110101100</text>
-      <text class="rain" x="900" y="0" style="animation-duration:5.2s;animation-delay:-3.6s">10100110011</text>
-      <text class="rain" x="960" y="0" style="animation-duration:4.5s;animation-delay:-1.3s">01011010010</text>
+  <g clip-path="url(#win)">
+    <rect x="20" y="18" width="860" height="334" fill="url(#bg)"/>
+    <rect x="20" y="18" width="860" height="38" fill="#161b22"/>
+    <circle cx="42" cy="37" r="6" fill="#ff5f56"/>
+    <circle cx="64" cy="37" r="6" fill="#ffbd2e"/>
+    <circle cx="86" cy="37" r="6" fill="#27c93f"/>
+    <text x="450" y="42" text-anchor="middle" fill="#7d8590" font-size="13">enzo@steezy — zsh — 80&#215;24</text>
+
+    <g clip-path="url(#c1)" class="ln">
+      <text x="40" y="96"><tspan class="prompt">enzo@steezy:~$</tspan><tspan fill="#e6edf3"> whoami</tspan></text>
+    </g>
+    <g clip-path="url(#c2)" class="ln">
+      <text x="40" y="126" fill="#56d4dd">&#8627; Enzo "Steezy" Petit — Software Engineer &#215; AI</text>
+    </g>
+    <g clip-path="url(#c3)" class="ln">
+      <text x="40" y="164"><tspan class="prompt">enzo@steezy:~$</tspan><tspan fill="#e6edf3"> cat stack.json</tspan></text>
+    </g>
+    <g clip-path="url(#c4)" class="ln">
+      <text x="40" y="194"><tspan fill="#7d8590">{ </tspan><tspan fill="#bc8cff">"lang"</tspan><tspan fill="#7d8590">: </tspan><tspan fill="#a5d6ff">"C&#183;C++&#183;Py&#183;TS&#183;Go"</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#bc8cff">"focus"</tspan><tspan fill="#7d8590">: </tspan><tspan fill="#a5d6ff">"AI / Systems / Web"</tspan><tspan fill="#7d8590"> }</tspan></text>
+    </g>
+    <g clip-path="url(#c5)" class="ln">
+      <text x="40" y="232"><tspan class="prompt">enzo@steezy:~$</tspan><tspan fill="#e6edf3"> sudo ./launch --mode=god</tspan></text>
     </g>
 
-    <g class="name" text-anchor="middle" letter-spacing="6">
-      <text class="nmC" x="500" y="158" fill="#22d3ee" opacity="0.8">STEEZY</text>
-      <text class="nmM" x="500" y="158" fill="#ff2e97" opacity="0.8">STEEZY</text>
-      <text class="nm0" x="500" y="158" fill="#e6edf3">STEEZY</text>
+    <rect x="44" y="252" width="232" height="16" rx="8" fill="#21262d"/>
+    <g clip-path="url(#cbar)"><rect x="44" y="252" width="232" height="16" rx="8" fill="url(#bar)"/></g>
+    <text x="288" y="265" font-size="14" fill="#7d8590">deploying steezy.exe</text>
+
+    <g class="ln">
+      <text x="40" y="306" fill="#3fb950" opacity="0">&#10003; all systems online — welcome.
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.59;.61;1" dur="13s" repeatCount="indefinite"/>
+      </text>
     </g>
 
-    <text class="tag" x="500" y="196" text-anchor="middle" fill="#00ff9c" font-size="17" letter-spacing="5">
-      SOFTWARE ENGINEER &#215; AI SPECIALIST
-    </text>
+    <rect class="cur" x="0" y="0" width="10" height="19" fill="#2dd4bf">
+      <animateTransform attributeName="transform" type="translate" calcMode="discrete"
+        values="246,80; 246,80; 350,110; 320,148; 480,178; 388,216; 388,216; 320,288; 320,288"
+        keyTimes="0; .031; .108; .177; .262; .346; .438; .592; 1" dur="13s" repeatCount="indefinite"/>
+    </rect>
 
-    <text x="40" y="272" fill="#7ee787" font-size="18" font-weight="600">enzo@steezy:~$</text>
-    <g clip-path="url(#type)">
-      <text x="118" y="272" fill="#e6edf3" font-size="18">./launch_steezy.sh --mode=god</text>
-    </g>
-    <rect class="cur" x="484" y="256" width="11" height="20" fill="#00ff9c"/>
-
-    <rect class="scanline crt" x="0" y="0" width="1000" height="3" fill="#00ff9c" opacity="0.4"/>
-    <rect x="2" y="2" width="996" height="316" rx="14" fill="none" stroke="#1f6feb" stroke-opacity="0.5" stroke-width="1.5"/>
+    <rect class="scanline" x="20" y="18" width="860" height="60" fill="#2dd4bf" opacity="0.05"/>
   </g>
+
+  <g text-anchor="middle" font-size="92" font-weight="800" letter-spacing="8">
+    <text class="nmC" x="450" y="436" fill="#2dd4bf" opacity="0.75">STEEZY</text>
+    <text class="nmM" x="450" y="436" fill="#ff2e97" opacity="0.75">STEEZY</text>
+    <text x="450" y="436" fill="#e6edf3">STEEZY</text>
+  </g>
+  <text x="450" y="474" text-anchor="middle" fill="#3fb950" font-size="15" letter-spacing="6">&#9608; BUILDING THINGS THAT THINK &#9608;</text>
+
+  <rect x="0" y="0" width="900" height="500" fill="url(#vig)"/>
+  <rect x="20" y="18" width="860" height="334" rx="13" fill="none" stroke="#1f6feb" stroke-opacity="0.35" stroke-width="1.5"/>
 </svg>
