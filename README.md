@@ -24,7 +24,7 @@ Currently running **[Softlabcs](https://softlabcs.com)**, a software development
 **Languages**
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,haskell,go,python,java,swift,ts,js&perline=9" alt="Languages" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,go,python,swift,dart,ts,js,haskell&perline=9" alt="Languages" />
   </a>
 </p>
 <p align="center">
@@ -35,22 +35,35 @@ Currently running **[Softlabcs](https://softlabcs.com)**, a software development
 **Frontend**
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,vue,astro,html,css&perline=6" alt="Frontend" />
+    <img src="https://skillicons.dev/icons?i=astro,react,svelte,tailwind,sass,vite&perline=6" alt="Frontend" />
   </a>
 </p>
 
-**Backend & Desktop**
+**Mobile & Desktop**
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,express,qt&perline=3" alt="Backend & Desktop" />
+    <img src="https://skillicons.dev/icons?i=flutter,swift,electron,qt&perline=4" alt="Mobile & Desktop" />
   </a>
 </p>
 
-**DevOps & Tools**
+**Backend & Data**
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=docker,git,linux,vscode,neovim&perline=5" alt="DevOps & Tools" />
+    <img src="https://skillicons.dev/icons?i=nodejs,express,flask,postgres,redis&perline=5" alt="Backend & Data" />
   </a>
+</p>
+
+**DevOps & Infra**
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,nginx,githubactions,linux,git,neovim&perline=6" alt="DevOps & Infra" />
+  </a>
+</p>
+
+**AI**
+<p align="center">
+  <img src="https://img.shields.io/badge/Anthropic_Claude-181818?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic Claude" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
 </p>
 
 ---
