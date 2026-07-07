@@ -27,9 +27,6 @@ Currently running **[Softlabcs](https://softlabcs.com)**, a software development
     <img src="https://skillicons.dev/icons?i=c,cpp,go,python,swift,dart,ts,js,haskell,fortran&perline=10" alt="Languages" />
   </a>
 </p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=assemblyscript&logoColor=white" alt="Assembly" />
-</p>
 
 **Frontend**
 <p align="center">
