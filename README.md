@@ -13,7 +13,7 @@
 
 ### About
 
-Software engineer working at the intersection of **AI**, **systems** and **web**. Building since 2022, from low-level C and C++ up to modern web products with TypeScript, React and Next.js.
+Software engineer working at the intersection of **AI**, **systems** and **software**. Building since 2022, from low-level C and C++ up to modern software products with TypeScript, React and Next.js.
 
 Currently running **[Softlabcs](https://softlabcs.com)**, a software development agency where I stay fully hands-on: I own the whole technical stack, from architecture and code to infrastructure and deployment, building tailor-made products for clients, shipped and self-hosted end to end. Day to day, most of my time goes into pushing AI to its limits.
 
