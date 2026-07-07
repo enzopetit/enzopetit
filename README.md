@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2DD4BF&center=true&vCenter=true&random=false&width=600&lines=Hey+%F0%9F%91%8B+I'm+Enzo+Petit;aka+steezy;Software+Engineer+%C3%97+AI;Building+mini-SaaS+at+Softlabcs" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2DD4BF&center=true&vCenter=true&random=false&width=600&lines=Hey+%F0%9F%91%8B+I'm+Enzo+Petit;aka+steezy;Software+Engineer+%C3%97+AI;Running+Softlabcs" alt="Typing SVG" />
   </a>
 </h1>
 
@@ -15,7 +15,7 @@
 
 Software engineer working at the intersection of **AI**, **systems** and **web**. Building since 2022, from low-level C and C++ up to modern web products with TypeScript, React and Next.js.
 
-Currently building **[Softlabcs](https://softlabcs.com)**: a collection of mini-SaaS apps designed, coded, shipped and self-hosted end to end. Day to day, most of my time goes into pushing AI to its limits.
+Currently running **[Softlabcs](https://softlabcs.com)**, a software development agency where I stay fully hands-on: I own the whole technical stack, from architecture and code to infrastructure and deployment, building tailor-made products for clients, shipped and self-hosted end to end. Day to day, most of my time goes into pushing AI to its limits.
 
 ---
 
@@ -58,11 +58,11 @@ Currently building **[Softlabcs](https://softlabcs.com)**: a collection of mini-
 ### Stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=enzopetit&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=enzopetit&theme=tokyonight&hide_border=true&hide_total_contributions=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=enzopetit&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=enzopetit&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8&title=Stars,Followers,Repositories,PullRequest,Issues,Reviews,Experience" alt="Trophies" />
 </p>
 
 ---
