@@ -24,12 +24,11 @@ Currently running **[Softlabcs](https://softlabcs.com)**, a software development
 **Languages**
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,go,python,swift,dart,ts,js,haskell&perline=9" alt="Languages" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,go,python,swift,dart,ts,js,haskell,fortran&perline=10" alt="Languages" />
   </a>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=assemblyscript&logoColor=white" alt="Assembly" />
-  <img src="https://img.shields.io/badge/Fortran-734F96?style=for-the-badge&logo=fortran&logoColor=white" alt="Fortran" />
 </p>
 
 **Frontend**
