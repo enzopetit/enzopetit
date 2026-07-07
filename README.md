@@ -60,10 +60,13 @@ Currently running **[Softlabcs](https://softlabcs.com)**, a software development
   </a>
 </p>
 
-**AI**
+**AI Engineering**
+
+LLM APIs I build production features on: agents, data pipelines and automation inside client products.
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Anthropic_Claude-181818?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic Claude" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/Anthropic_API-181818?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic API" />
+  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API" />
 </p>
 
 ---
