@@ -55,18 +55,6 @@ Currently running **[Softlabcs](https://softlabcs.com)**, a software development
 
 ---
 
-### Stats
-
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=enzopetit&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy-ruddy.vercel.app/?username=enzopetit&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8&title=Stars,Followers,Repositories,PullRequest,Issues,Reviews,Experience" alt="Trophies" />
-</p>
-
----
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=enzopetit&style=for-the-badge" alt="Profile views" />
 </p>
