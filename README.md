@@ -29,35 +29,35 @@ Founder of **[Softlabcs](https://softlabcs.com)**, a software company building i
 **Languages**
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,go,python,swift,dart,ts,js,haskell,fortran&perline=10" alt="Languages" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,go,ts,dart,swift,python&perline=7" alt="Languages" />
   </a>
 </p>
 
 **Frontend**
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=astro,react,svelte,tailwind,sass,vite&perline=6" alt="Frontend" />
+    <img src="https://skillicons.dev/icons?i=astro,react,tailwind&perline=3" alt="Frontend" />
   </a>
 </p>
 
 **Mobile & Desktop**
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=flutter,swift,electron,qt&perline=4" alt="Mobile & Desktop" />
+    <img src="https://skillicons.dev/icons?i=qt,flutter,swift,electron&perline=4" alt="Mobile & Desktop" />
   </a>
 </p>
 
 **Backend & Data**
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,express,flask,postgres,redis&perline=5" alt="Backend & Data" />
+    <img src="https://skillicons.dev/icons?i=postgres,nodejs&perline=2" alt="Backend & Data" />
   </a>
 </p>
 
 **DevOps & Infra**
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=docker,nginx,githubactions,linux,git,neovim&perline=6" alt="DevOps & Infra" />
+    <img src="https://skillicons.dev/icons?i=linux,docker,nginx,githubactions,git&perline=5" alt="DevOps & Infra" />
   </a>
 </p>
 
