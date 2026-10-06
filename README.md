@@ -63,11 +63,12 @@ Founder of **[Softlabcs](https://softlabcs.com)**, a software company building i
 
 **AI Engineering**
 
-LLM APIs I build production features on: agents, data pipelines and automation inside client products.
+Production LLM features: document OCR and multi-agent data extraction, chat assistants with tool calling, model routing and per-customer cost tracking.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Anthropic_API-181818?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic API" />
   <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API" />
+  <img src="https://img.shields.io/badge/Mistral_AI-FA520F?style=for-the-badge&logo=mistralai&logoColor=white" alt="Mistral AI" />
 </p>
 
 ---
