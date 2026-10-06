@@ -13,9 +13,14 @@
 
 ### About
 
-Software engineer working at the intersection of **AI**, **systems** and **software**. Building since 2022, from low-level C and C++ up to modern software products with TypeScript, React and Next.js.
+Software engineer working at the intersection of **systems**, **AI** and **product**. Building since 2022, mostly in C and C++, from raw sockets up to full products shipped to real users.
 
-Currently running **[Softlabcs](https://softlabcs.com)**, a software development agency where I stay fully hands-on: I own the whole technical stack, from architecture and code to infrastructure and deployment, building tailor-made products for clients, shipped and self-hosted end to end. Day to day, most of my time goes into pushing AI to its limits.
+Founder of **[Softlabcs](https://softlabcs.com)**, a software company building its own products and delivering tailor-made software for clients. I own the whole stack end to end:
+
+- **Systems**: a TLS server written in C with its own binary protocol, running in production on self-hosted infra
+- **Desktop**: a 200k+ line C++/Qt business application, signed and shipped
+- **Mobile**: Flutter and Swift apps with in-app subscriptions
+- **AI**: LLM pipelines running in production inside those products
 
 ---
 
